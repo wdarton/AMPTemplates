@@ -18,6 +18,6 @@
     "UpdateStageName": "Mods Directory Creation",
     "UpdateSourcePlatform": "All",
     "UpdateSource": "CreateDirectory",
-    "UpdateSourceArgs": "{{$FullBaseDir}}HarshDoorstop/Mods"
+    "UpdateSourceArgs": "{{$FullBaseDir}}/HarshDoorstop/Mods"
   }
 ]
