@@ -375,11 +375,11 @@
       "/OHDTest/Core/BP_HDGame_AdvanceAndSecureBase_TestMove.BP_HDGame_AdvanceAndSecureBase_TestMove_C": "UI Overhaul (mod)",
       "{{CustomMode}}": "--Custom--"
     },
-    "FieldName": "game",
+    "FieldName": "?game",
     "IncludeInCommandLine": true,
     "InputType": "text",
     "Keywords": "game,gamemode",
-    "ParamFieldName": "game",
+    "ParamFieldName": "?game",
     "SkipIfEmpty": true,
     "Subcategory": "General:dns"
   },
