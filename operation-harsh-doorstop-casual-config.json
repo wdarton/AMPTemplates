@@ -366,7 +366,7 @@
       "": "None",
       "/BigLearning/Core/BP_BLGame_Testing.BP_BLGame_Testing_C": "Vehicle Overhaul (mod)",
       "/Bodycam/Core/GM_Bodycam.GM_Bodycam_C": "Realistic Bodycam (mod)",
-      "/CasualCQB/Root/Core/BP_HDGame_Skirmish_CQB.BP_HDGame_Skirmish_CQB_C": "Casualstrike (mod)",
+      "/CasualCQB/Root/Core/BP_HDGame_Skirmish_CQB.BP_HDGame_Skirmish_CQB_C": "Casualfield - Skirmish (mod)",
       "/CasualMode/Core/BP_HDGame_AdvanceAndSecure_CasualMode.BP_HDGame_AdvanceAndSecure_CasualMode_C": "Casual Warfare (mod)",
       "/ConstructionPrototype/GameMode/BP_HDGame_AdvanceAndSecure_Construct.BP_HDGame_AdvanceAndSecure_Construct_C": "Construction (mod)",
       "/Detonation/Root/Core/BP_HDGame_Detonation.BP_HDGame_Detonation_C": "Detonation (mod)",
@@ -623,21 +623,21 @@
     "ParamFieldName": "Game.MinPlayersToCapture",
     "Subcategory": "General:dns"
   },
-  {
-    "Category": "OHD Server Settings:dns",
-    "DefaultValue": "False",
-    "Description": "If set, player kit restrictions will be disabled",
-    "DisplayName": "Disable Kit Restrictions",
-    "EnumValues": {
-      "False": "False",
-      "True": "True"
+    {
+        "DisplayName": "Disable Kit Restrictions",
+        "Category": "OHD Server Settings:dns",
+        "Subcategory": "Server:dns:1",
+        "Description": "If set, player kit restrictions will be disabled",
+        "Keywords": "disable,kit,restrictions,bDisableKitRestrictions",
+        "FieldName": "bDisableKitRestrictions",
+        "InputType": "checkbox",
+        "ParamFieldName": "bDisableKitRestrictions",
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "?bDisableKitRestrictions"
+        }
     },
-    "FieldName": "Game.DisableKitRestrictions",
-    "InputType": "checkbox",
-    "Keywords": "disable,kit,restrictions,bDisableKitRestrictions",
-    "ParamFieldName": "Game.DisableKitRestrictions",
-    "Subcategory": "General:dns"
-  },
   {
     "Category": "OHD Server Settings:dns",
     "DefaultValue": "False",
