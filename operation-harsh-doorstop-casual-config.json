@@ -317,21 +317,6 @@
   },
   {
     "Category": "OHD Server Settings:dns",
-    "DefaultValue": "16",
-    "Description": "Sets the maximum number of players able to join the server at one time",
-    "DisplayName": "Player Limit",
-    "FieldName": "$MaxUsers",
-    "IncludeInCommandLine": true,
-    "InputType": "number",
-    "Keywords": "max,maximum,players,limit,maxplayers",
-    "MinValue": 1,
-    "ParamFieldName": "MaxPlayers",
-    "Placeholder": "16",
-    "Subcategory": "General:dns",
-    "Suffix": "players"
-  },
-  {
-    "Category": "OHD Server Settings:dns",
     "DefaultValue": "AAS-TestMap",
     "Description": "Sets the map for the server. If \"Custom\" is selected, Custom Map Name must also be set",
     "DisplayName": "Initial Map",
@@ -383,6 +368,21 @@
     "ParamFieldName": "game",
     "SkipIfEmpty": true,
     "Subcategory": "General:dns"
+  },
+  {
+    "Category": "OHD Server Settings:dns",
+    "DefaultValue": "16",
+    "Description": "Sets the maximum number of players able to join the server at one time",
+    "DisplayName": "Player Limit",
+    "FieldName": "$MaxUsers",
+    "IncludeInCommandLine": true,
+    "InputType": "number",
+    "Keywords": "max,maximum,players,limit,maxplayers",
+    "MinValue": 1,
+    "ParamFieldName": "MaxPlayers",
+    "Placeholder": "16",
+    "Subcategory": "General:dns",
+    "Suffix": "players"
   },
   {
     "Category": "OHD Server Settings:dns",
