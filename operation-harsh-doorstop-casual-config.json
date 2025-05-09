@@ -376,11 +376,11 @@
       "/VIPmode/Core/BP_HDGame_VIPEscort.BP_HDGame_VIPEscort_C": "VIP Escort (mod)",
       "{{CustomMode}}": "--Custom--"
     },
-    "FieldName": "?game",
+    "FieldName": "game",
     "IncludeInCommandLine": true,
     "InputType": "text",
     "Keywords": "game,gamemode",
-    "ParamFieldName": "?game",
+    "ParamFieldName": "game",
     "SkipIfEmpty": true,
     "Subcategory": "General:dns"
   },
