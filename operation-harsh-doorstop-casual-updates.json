@@ -20,11 +20,4 @@
     "UpdateSource": "CreateDirectory",
     "UpdateSourceArgs": "{{$FullBaseDir}}/HarshDoorstop/Mods"
   },
-  {
-      "UpdateStageName": "SteamCMD Component Download",
-      "UpdateSourcePlatform": "All",
-      "UpdateSource": "SteamCMD",
-      "UpdateSourceData": "3156262135",
-      "UpdateSourceTarget": "{{$FullBaseDir}}/HarshDoorstop/Mods"
-  },
 ]
