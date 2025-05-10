@@ -23,7 +23,7 @@ if (Test-Path $workshopDir) {
 
         $symlinkName = Join-Path -Path $ohdModsDir -ChildPath $_.Name
     
-        Write-Host "Made symlink for: " + $symlinkName
+        Write-Host "Made symlink for:" $symlinkName
         
         if (Test-Path -LiteralPath $symlinkName) {
             Remove-Item -LiteralPath $symlinkName -Force -Recurse
