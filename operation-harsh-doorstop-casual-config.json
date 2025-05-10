@@ -298,8 +298,8 @@
     "Description": "Allow auto squad join",
     "DisplayName": "Auto Squad Join",
     "EnumValues": {
-      "False": "True",
-      "True": "False"
+      "False": "False",
+      "True": "True"
     },
     "FieldName": "Mod.CasualField.bAllowAutoSquadJoin",
     "InputType": "checkbox",
