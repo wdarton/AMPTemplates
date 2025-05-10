@@ -8,12 +8,12 @@ if (Test-Path $workshopDir) {
   Get-ChildItem -Path $workshopDir -Directory | ForEach-Object {
     $steamIdModDir = Join-Path -Path $workshopDir -ChildPath $_.Name
     
-    Write-Host
-    Write-Host "Parent Dirs:"
-    Write-Host $_.Name
+    # Write-Host
+    # Write-Host "Parent Dirs:"
+    # Write-Host $_.Name
     
     if (Test-Path -Path $steamIdModDir -PathType Container) {
-        Write-Host "has child directory" 
+        # Write-Host "has child directory" 
     } else {
         Continue
     }
@@ -23,7 +23,7 @@ if (Test-Path $workshopDir) {
 
         $symlinkName = Join-Path -Path $ohdModsDir -ChildPath $_.Name
     
-        Write-Host $symlinkName
+        Write-Host "Made symlink for: " + $symlinkName
         
         if (Test-Path -LiteralPath $symlinkName) {
             Remove-Item -LiteralPath $symlinkName -Force -Recurse
