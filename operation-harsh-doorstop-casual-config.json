@@ -294,6 +294,21 @@
   },
   {
     "Category": "Mod Settings:extension",
+    "DefaultValue": "False",
+    "Description": "Allow auto squad join",
+    "DisplayName": "Auto Squad Join",
+    "EnumValues": {
+      "False": "True",
+      "True": "False"
+    },
+    "FieldName": "Mod.CasualField.bAllowAutoSquadJoin",
+    "InputType": "checkbox",
+    "Keywords": "revive,on,headshot,bAllowAutoSquadJoin",
+    "ParamFieldName": "Mod.CasualField.bAllowAutoSquadJoin",
+    "Subcategory": "Casualfield:flag:10"
+  },
+  {
+    "Category": "Mod Settings:extension",
     "DefaultValue": "750",
     "Description": "Radius for auto spawning",
     "DisplayName": "Auto Spawn Radius",
