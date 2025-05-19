@@ -5,7 +5,7 @@
       {
         "Heading": "SystemSettings",
         "SettingMappings": {
-          "Game.FriendlyFireOverride": "Game.FriendlyFire",
+          "Game.FriendlyFire": "Game.FriendlyFire",
           "Game.AutoBalanceTeamsOverride": "Game.AutoBalanceTeams",
           "HD.AAS.ActiveRouteOverride": "Game.ActiveRoute",
           "HD.CP.EnforceSmallerMinPlayersToCapture": "Game.EnforceSmallerMinPlayersToCapture",
