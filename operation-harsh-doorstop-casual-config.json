@@ -673,8 +673,8 @@
         "ParamFieldName": "bDisableKitRestrictions",
         "DefaultValue": "",
         "EnumValues": {
-            "False": "",
-            "True": "?bDisableKitRestrictions"
+            "False": "False",
+            "True": "True"
         }
     },
   {
