@@ -662,21 +662,21 @@
     "ParamFieldName": "Game.MinPlayersToCapture",
     "Subcategory": "General:dns"
   },
-    {
-        "DisplayName": "Disable Kit Restrictions",
-        "Category": "OHD Server Settings:dns",
-        "Subcategory": "Server:dns:1",
-        "Description": "If set, player kit restrictions will be disabled",
-        "Keywords": "disable,kit,restrictions,bDisableKitRestrictions",
-        "FieldName": "bDisableKitRestrictions",
-        "InputType": "checkbox",
-        "ParamFieldName": "bDisableKitRestrictions",
-        "DefaultValue": "",
-        "EnumValues": {
-            "False": "False",
-            "True": "True"
-        }
-    },
+  {
+    "DisplayName": "Disable Kit Restrictions",
+    "Category": "OHD Server Settings:dns",
+    "Subcategory": "Server:dns:1",
+    "Description": "If set, player kit restrictions will be disabled",
+    "Keywords": "disable,kit,restrictions,bDisableKitRestrictions",
+    "FieldName": "Game.DisableKitRestrictions",
+    "InputType": "checkbox",
+    "ParamFieldName": "Game.DisableKitRestrictions",
+    "DefaultValue": "",
+    "EnumValues": {
+        "False": "False",
+        "True": "True"
+    }
+  },
   {
     "Category": "OHD Server Settings:dns",
     "DefaultValue": "False",
