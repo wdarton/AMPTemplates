@@ -388,7 +388,7 @@
     "InputType": "enum",
     "Keywords": "map",
     "ParamFieldName": "Map",
-    "Subcategory": "Map Settings:public:2"
+    "Subcategory": "Map Settings:public"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -437,7 +437,7 @@
     "Keywords": "custom,map",
     "ParamFieldName": "CustomMap",
     "Placeholder": "AAS_Trainyard",
-    "Subcategory": "Map Settings:public:2"
+    "Subcategory": "Map Settings:public"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -449,7 +449,7 @@
     "Keywords": "map,cycle,list,mapcycle",
     "ParamFieldName": "MapCycle",
     "Special": "listfile:./operation-harsh-doorstop/950900/HarshDoorstop/Saved/Config/WindowsServer/MapCycle.cfg",
-    "Subcategory": "Map Settings:public:2"
+    "Subcategory": "Map Settings:public"
   },
   {
     "Category": "OHD Server Settings:dns",
