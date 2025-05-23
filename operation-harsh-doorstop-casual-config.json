@@ -388,7 +388,7 @@
     "InputType": "enum",
     "Keywords": "map",
     "ParamFieldName": "Map",
-    "Subcategory": "General:dns"
+    "Subcategory": "Map Settings:public:2"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -437,19 +437,19 @@
     "Keywords": "custom,map",
     "ParamFieldName": "CustomMap",
     "Placeholder": "AAS_Trainyard",
-    "Subcategory": "General:dns"
+    "Subcategory": "Map Settings:public:2"
   },
   {
     "Category": "OHD Server Settings:dns",
     "DefaultValue": "",
-    "Description": "List of [proper names](https://operation-harsh-doorstop.fandom.com/wiki/Server_Install_Instructions#MapCycle.cfg) of maps to run in sequence on the server after the initial map, in the order to be run",
+    "Description": "List of [proper names](https://wdarton.atlassian.net/wiki/spaces/~55705855a1461c33f4436ebe48ec2ae839f763/pages/21561346/Server+Settings#Map-Names) of maps to run in sequence on the server after the initial map, in the order to be run",
     "DisplayName": "Map Cycle",
     "FieldName": "MapCycle",
     "InputType": "list",
     "Keywords": "map,cycle,list,mapcycle",
     "ParamFieldName": "MapCycle",
     "Special": "listfile:./operation-harsh-doorstop/950900/HarshDoorstop/Saved/Config/WindowsServer/MapCycle.cfg",
-    "Subcategory": "General:dns"
+    "Subcategory": "Map Settings:public:2"
   },
   {
     "Category": "OHD Server Settings:dns",
