@@ -4,8 +4,7 @@
     "DisplayName": "Testing",
     "FieldName": "Placeholder",
     "Hidden": false,
-    "DefaultValue": "This is a list of defaults /rn with multi-line test",
-    "InputType": "list",
+    "InputType": "hidden",
     "ParamFieldName": "Placeholder",
     "Subcategory": "Others:extension:100"
   },
