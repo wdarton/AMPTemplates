@@ -5,7 +5,7 @@
     "FieldName": "Placeholder",
     "Hidden": false,
     "DefaultValue": "This is a list of defaults /rn with multi-line test",
-    "InputType": "hidden",
+    "InputType": "list",
     "ParamFieldName": "Placeholder",
     "Subcategory": "Others:extension:100"
   },
@@ -329,7 +329,7 @@
     "InputType": "text",
     "Keywords": "server,name,servername,steamservername",
     "ParamFieldName": "ServerName",
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -411,7 +411,7 @@
     "Keywords": "game,gamemode",
     "ParamFieldName": "game",
     "SkipIfEmpty": true,
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -425,7 +425,7 @@
     "MinValue": 1,
     "ParamFieldName": "MaxPlayers",
     "Placeholder": "16",
-    "Subcategory": "General:dns:1",
+    "Subcategory": "General:manufacturing:1",
     "Suffix": "players"
   },
   {
@@ -462,7 +462,7 @@
     "Keywords": "custom,mode",
     "ParamFieldName": "CustomMode",
     "Placeholder": "/pathToGamemode/GameModeBPname.GameModeBPname_C",
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -487,7 +487,7 @@
     "Keywords": "server,password,serverpassword",
     "ParamFieldName": "Password",
     "SkipIfEmpty": true,
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -591,7 +591,7 @@
     "MinValue": 0,
     "ParamFieldName": "MinPlayers",
     "Placeholder": "0",
-    "Subcategory": "General:dns:1",
+    "Subcategory": "General:manufacturing:1",
     "Suffix": "players"
   },
   {
@@ -609,7 +609,7 @@
     "InputType": "enum",
     "Keywords": "auto,assign,human,player,AutoAssignHuman",
     "ParamFieldName": "AutoAssignHuman",
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -620,7 +620,7 @@
     "InputType": "checkbox",
     "Keywords": "Game.FriendlyFireOverride",
     "ParamFieldName": "Game.FriendlyFire",
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -631,7 +631,7 @@
     "InputType": "checkbox",
     "Keywords": "HD.AAS.ActiveRouteOverride",
     "ParamFieldName": "Game.ActiveRoute",
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -642,7 +642,7 @@
     "InputType": "checkbox",
     "Keywords": "Game.AutoBalanceTeamsOverride",
     "ParamFieldName": "Game.AutoBalanceTeams",
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -654,7 +654,7 @@
     "Keywords": "HD.CP.EnforceSmallerMinPlayersToCapture",
     "MinValue": -1,
     "ParamFieldName": "Game.EnforceSmallerMinPlayersToCapture",
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -666,12 +666,12 @@
     "Keywords": "HD.CP.MinPlayersToCaptureOverride",
     "MinValue": -1,
     "ParamFieldName": "Game.MinPlayersToCapture",
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "DisplayName": "Disable Kit Restrictions",
     "Category": "OHD Server Settings:dns",
-    "Subcategory": "General:dns:1",
+    "Subcategory": "General:manufacturing:1",
     "Description": "If set, player kit restrictions will be disabled",
     "Keywords": "disable,kit,restrictions,bDisableKitRestrictions",
     "FieldName": "Game.DisableKitRestrictions",
@@ -708,7 +708,7 @@
     "Keywords": "respawn,delay,MinRespawnDelay",
     "ParamFieldName": "Game.MinRespawnDelay",
     "Placeholder": "10",
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -722,7 +722,7 @@
     "InputType": "checkbox",
     "Keywords": "auto,fill,autofill,bots,bBotAutofill",
     "ParamFieldName": "bBotAutofill",
-    "Subcategory": "General:dns:1"
+    "Subcategory": "General:manufacturing:1"
   },
   {
     "Category": "OHD Server Settings:dns",
