@@ -1,9 +1,10 @@
 [
   {
     "Category": "Mod Settings:extension",
-    "DisplayName": "",
+    "DisplayName": "Testing",
     "FieldName": "Placeholder",
     "Hidden": false,
+    "DefaultValue": "This is a list of defaults /rn with multi-line test",
     "InputType": "hidden",
     "ParamFieldName": "Placeholder",
     "Subcategory": "Others:extension:100"
@@ -328,7 +329,7 @@
     "InputType": "text",
     "Keywords": "server,name,servername,steamservername",
     "ParamFieldName": "ServerName",
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -388,7 +389,7 @@
     "InputType": "enum",
     "Keywords": "map",
     "ParamFieldName": "Map",
-    "Subcategory": "Map Settings:public"
+    "Subcategory": "Map Settings:public:20"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -410,7 +411,7 @@
     "Keywords": "game,gamemode",
     "ParamFieldName": "game",
     "SkipIfEmpty": true,
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -424,7 +425,7 @@
     "MinValue": 1,
     "ParamFieldName": "MaxPlayers",
     "Placeholder": "16",
-    "Subcategory": "General:dns",
+    "Subcategory": "General:dns:1",
     "Suffix": "players"
   },
   {
@@ -437,7 +438,7 @@
     "Keywords": "custom,map",
     "ParamFieldName": "CustomMap",
     "Placeholder": "AAS_Trainyard",
-    "Subcategory": "Map Settings:public"
+    "Subcategory": "Map Settings:public:20"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -449,7 +450,7 @@
     "Keywords": "map,cycle,list,mapcycle",
     "ParamFieldName": "MapCycle",
     "Special": "listfile:./operation-harsh-doorstop/950900/HarshDoorstop/Saved/Config/WindowsServer/MapCycle.cfg",
-    "Subcategory": "Map Settings:public"
+    "Subcategory": "Map Settings:public:20"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -461,7 +462,7 @@
     "Keywords": "custom,mode",
     "ParamFieldName": "CustomMode",
     "Placeholder": "/pathToGamemode/GameModeBPname.GameModeBPname_C",
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -473,7 +474,7 @@
     "Keywords": "admins,adminlist",
     "ParamFieldName": "AdminList",
     "Special": "listfile:./operation-harsh-doorstop/950900/HarshDoorstop/Saved/Config/WindowsServer/Admins.cfg",
-    "Subcategory": "General:dns"
+    "Subcategory": "Server:dns:10"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -486,7 +487,7 @@
     "Keywords": "server,password,serverpassword",
     "ParamFieldName": "Password",
     "SkipIfEmpty": true,
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -501,7 +502,7 @@
     "InputType": "checkbox",
     "Keywords": "rcon",
     "ParamFieldName": "RCON.Enabled",
-    "Subcategory": "RCON:vpn_key"
+    "Subcategory": "RCON:vpn_key:100"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -512,7 +513,7 @@
     "InputType": "hidden",
     "Keywords": "rcon,password",
     "ParamFieldName": "RemoteAdminPassword",
-    "Subcategory": "RCON:vpn_key"
+    "Subcategory": "RCON:vpn_key:100"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -526,7 +527,7 @@
     "MaxValue": 25565,
     "MinValue": 0,
     "ParamFieldName": "RCONPort",
-    "Subcategory": "RCON:vpn_key"
+    "Subcategory": "RCON:vpn_key:100"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -539,7 +540,7 @@
     "MaxValue": 25565,
     "MinValue": 0,
     "ParamFieldName": "RCON.MaxActiveConnections",
-    "Subcategory": "RCON:vpn_key"
+    "Subcategory": "RCON:vpn_key:100"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -552,7 +553,7 @@
     "MaxValue": 25565,
     "MinValue": 0,
     "ParamFieldName": "RCON.MaxAuthAttempts",
-    "Subcategory": "RCON:vpn_key"
+    "Subcategory": "RCON:vpn_key:100"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -564,7 +565,7 @@
     "Keywords": "player,whitelist",
     "ParamFieldName": "Whitelist",
     "Special": "listfile:./operation-harsh-doorstop/950900/HarshDoorstop/Saved/Config/WindowsServer/Whitelist.cfg",
-    "Subcategory": "General:dns"
+    "Subcategory": "Server:dns:10"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -576,7 +577,7 @@
     "Keywords": "player,ban,banlist",
     "ParamFieldName": "BanList",
     "Special": "listfile:./operation-harsh-doorstop/950900/HarshDoorstop/Saved/Config/WindowsServer/Bans.cfg",
-    "Subcategory": "General:dns"
+    "Subcategory": "Server:dns:10"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -590,7 +591,7 @@
     "MinValue": 0,
     "ParamFieldName": "MinPlayers",
     "Placeholder": "0",
-    "Subcategory": "General:dns",
+    "Subcategory": "General:dns:1",
     "Suffix": "players"
   },
   {
@@ -608,7 +609,7 @@
     "InputType": "enum",
     "Keywords": "auto,assign,human,player,AutoAssignHuman",
     "ParamFieldName": "AutoAssignHuman",
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -619,7 +620,7 @@
     "InputType": "checkbox",
     "Keywords": "Game.FriendlyFireOverride",
     "ParamFieldName": "Game.FriendlyFire",
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -630,7 +631,7 @@
     "InputType": "checkbox",
     "Keywords": "HD.AAS.ActiveRouteOverride",
     "ParamFieldName": "Game.ActiveRoute",
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -641,7 +642,7 @@
     "InputType": "checkbox",
     "Keywords": "Game.AutoBalanceTeamsOverride",
     "ParamFieldName": "Game.AutoBalanceTeams",
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -653,7 +654,7 @@
     "Keywords": "HD.CP.EnforceSmallerMinPlayersToCapture",
     "MinValue": -1,
     "ParamFieldName": "Game.EnforceSmallerMinPlayersToCapture",
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -665,12 +666,12 @@
     "Keywords": "HD.CP.MinPlayersToCaptureOverride",
     "MinValue": -1,
     "ParamFieldName": "Game.MinPlayersToCapture",
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "DisplayName": "Disable Kit Restrictions",
     "Category": "OHD Server Settings:dns",
-    "Subcategory": "Server:dns:1",
+    "Subcategory": "General:dns:1",
     "Description": "If set, player kit restrictions will be disabled",
     "Keywords": "disable,kit,restrictions,bDisableKitRestrictions",
     "FieldName": "Game.DisableKitRestrictions",
@@ -695,7 +696,7 @@
     "InputType": "checkbox",
     "Keywords": "supporter,only,donator",
     "ParamFieldName": "Game.SupportersOnly",
-    "Subcategory": "General:dns"
+    "Subcategory": "Server:dns:10"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -707,7 +708,7 @@
     "Keywords": "respawn,delay,MinRespawnDelay",
     "ParamFieldName": "Game.MinRespawnDelay",
     "Placeholder": "10",
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -721,7 +722,7 @@
     "InputType": "checkbox",
     "Keywords": "auto,fill,autofill,bots,bBotAutofill",
     "ParamFieldName": "bBotAutofill",
-    "Subcategory": "General:dns"
+    "Subcategory": "General:dns:1"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -776,7 +777,7 @@
     "Keywords": "blufor,faction,bluforfaction",
     "ParamFieldName": "BluforFaction",
     "SkipIfEmpty": true,
-    "Subcategory": "BLUFOR:flag"
+    "Subcategory": "BLUFOR:flag:50"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -788,7 +789,7 @@
     "Keywords": "custom,blufor,faction,bluforfaction",
     "ParamFieldName": "CustomBluforFaction",
     "Placeholder": "",
-    "Subcategory": "BLUFOR:flag"
+    "Subcategory": "BLUFOR:flag:50"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -802,7 +803,7 @@
     "MinValue": 0,
     "ParamFieldName": "BluforNumTickets",
     "Placeholder": "500",
-    "Subcategory": "BLUFOR:flag",
+    "Subcategory": "BLUFOR:flag:50",
     "Suffix": "tickets"
   },
   {
@@ -817,7 +818,7 @@
     "MinValue": 0,
     "ParamFieldName": "BluforNumBots",
     "Placeholder": "0",
-    "Subcategory": "BLUFOR:flag",
+    "Subcategory": "BLUFOR:flag:50",
     "Suffix": "bots"
   },
   {
@@ -873,7 +874,7 @@
     "Keywords": "opfor,faction",
     "ParamFieldName": "OpforFaction",
     "SkipIfEmpty": true,
-    "Subcategory": "OPFOR:flag"
+    "Subcategory": "OPFOR:flag:60"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -885,7 +886,7 @@
     "Keywords": "custom,opfor,faction,opforfaction",
     "ParamFieldName": "CustomOpforFaction",
     "Placeholder": "",
-    "Subcategory": "OPFOR:flag"
+    "Subcategory": "OPFOR:flag:60"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -899,7 +900,7 @@
     "MinValue": 0,
     "ParamFieldName": "OpforNumTickets",
     "Placeholder": "500",
-    "Subcategory": "OPFOR:flag",
+    "Subcategory": "OPFOR:flag:60",
     "Suffix": "tickets"
   },
   {
@@ -914,7 +915,7 @@
     "MinValue": 0,
     "ParamFieldName": "OpforNumBots",
     "Placeholder": "0",
-    "Subcategory": "OPFOR:flag",
+    "Subcategory": "OPFOR:flag:60",
     "Suffix": "bots"
   },
   {
@@ -925,7 +926,7 @@
     "InputType": "text",
     "Keywords": "ip,binding,address,multihome",
     "ParamFieldName": "MultiHome",
-    "Subcategory": "Advanced:dns"
+    "Subcategory": "Advanced:dns:90"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -938,7 +939,7 @@
     "Keywords": "steam",
     "ParamFieldName": "Steam.WebApiKey",
     "Placeholder": "",
-    "Subcategory": "General:dns"
+    "Subcategory": "Advanced:dns:90"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -950,7 +951,7 @@
     "Keywords": "custom,command,line,flags",
     "ParamFieldName": "CustomFlags",
     "Placeholder": "-RCONMaxActiveConnections=5 -SupportersOnly",
-    "Subcategory": "Advanced:dns"
+    "Subcategory": "Advanced:dns:90"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -961,6 +962,6 @@
     "InputType": "text",
     "Keywords": "custom,command,line,options",
     "ParamFieldName": "CustomOptions",
-    "Subcategory": "Advanced:dns"
+    "Subcategory": "Advanced:dns:90"
   }
 ]
