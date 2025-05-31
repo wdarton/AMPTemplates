@@ -414,7 +414,7 @@
     "Keywords": "game,gamemode",
     "ParamFieldName": "game",
     "SkipIfEmpty": true,
-    "Subcategory": "General:manufacturing:1"
+    "Subcategory": "Map Settings:public:20"
   },
   {
     "Category": "OHD Server Settings:dns",
@@ -465,7 +465,7 @@
     "Keywords": "custom,mode",
     "ParamFieldName": "CustomMode",
     "Placeholder": "/pathToGamemode/GameModeBPname.GameModeBPname_C",
-    "Subcategory": "General:manufacturing:1"
+    "Subcategory": "Map Settings:public:20"
   },
   {
     "Category": "OHD Server Settings:dns",
