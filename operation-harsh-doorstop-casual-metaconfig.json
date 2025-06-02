@@ -60,6 +60,7 @@
           "RadialDamageMultiplier": "Mod.CasualField.RadialDamageMultiplier",
           "bAllowPlayerTags": "Mod.CasualField.bAllowPlayerTags",
           "TimeToContinue": "Mod.CasualField.TimeToContinue",
+          "MaxAllowedKillsPerMinute": "Mod.CasualField.MaxAllowedKillsPerMinute",
           "PlayerSprintAcceleration": "Mod.CasualField.PlayerSprintAcceleration",
           "PlayerSprintStrafingThreashold": "Mod.CasualField.PlayerSprintStrafingThreashold",
           "PlayerMaxWalkSpeed": "Mod.CasualField.PlayerMaxWalkSpeed",

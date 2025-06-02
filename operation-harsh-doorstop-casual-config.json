@@ -10,7 +10,7 @@
   },
   {
     "Category": "Mod Settings:extension",
-    "DefaultValue": "True",
+    "DefaultValue": "False",
     "Description": "Enable or disable nametags ontop of enemy players when in range",
     "DisplayName": "Enemy Tags",
     "EnumValues": {
@@ -59,7 +59,7 @@
   },
   {
     "Category": "Mod Settings:extension",
-    "DefaultValue": "True",
+    "DefaultValue": "False",
     "Description": "Enable or disable red dot sight",
     "DisplayName": "Red Dot",
     "EnumValues": {
@@ -91,7 +91,7 @@
   },
   {
     "Category": "Mod Settings:extension",
-    "DefaultValue": "False",
+    "DefaultValue": "True",
     "Description": "Enable or disable suppression effect",
     "DisplayName": "Suppression Effect",
     "EnumValues": {
@@ -107,7 +107,7 @@
   },
   {
     "Category": "Mod Settings:extension",
-    "DefaultValue": "False",
+    "DefaultValue": "True",
     "Description": "Enable or disable suppression movement",
     "DisplayName": "Suppression Movement",
     "EnumValues": {
@@ -155,7 +155,7 @@
   },
   {
     "Category": "Mod Settings:extension",
-    "DefaultValue": "True",
+    "DefaultValue": "False",
     "Description": "Enable or disable kill feed",
     "DisplayName": "Kill Feed",
     "EnumValues": {
@@ -183,7 +183,7 @@
   },
   {
     "Category": "Mod Settings:extension",
-    "DefaultValue": "10",
+    "DefaultValue": "1",
     "Description": "Minimum respawn delay",
     "DisplayName": "Min Respawn Delay",
     "FieldName": "Mod.CasualField.MinRespawnDelay",
@@ -219,14 +219,26 @@
   },
   {
     "Category": "Mod Settings:extension",
-    "DefaultValue": "33",
+    "DefaultValue": "25",
     "Description": "Time to continue after death",
     "DisplayName": "Time To Continue",
     "FieldName": "Mod.CasualField.TimeToContinue",
     "InputType": "number",
     "Keywords": "time,continue,TimeToContinue",
     "ParamFieldName": "Mod.CasualField.TimeToContinue",
-    "Placeholder": "33",
+    "Placeholder": "25",
+    "Subcategory": "Casualfield:flag:10"
+  },
+  {
+    "Category": "Mod Settings:extension",
+    "DefaultValue": "100",
+    "Description": "Max kills a player can make in one minute",
+    "DisplayName": "Max kills per minute",
+    "FieldName": "Mod.CasualField.MaxAllowedKillsPerMinute",
+    "InputType": "number",
+    "Keywords": "time,continue,MaxAllowedKillsPerMinute",
+    "ParamFieldName": "Mod.CasualField.MaxAllowedKillsPerMinute",
+    "Placeholder": "100",
     "Subcategory": "Casualfield:flag:10"
   },
   {
@@ -649,7 +661,7 @@
   },
   {
     "Category": "OHD Server Settings:dns",
-    "DefaultValue": "-1",
+    "DefaultValue": "2",
     "Description": "Enforce Smaller Min Players To Capture",
     "DisplayName": "Enforce Smaller Min Players To Capture",
     "FieldName": "Game.EnforceSmallerMinPlayersToCapture",
@@ -673,6 +685,7 @@
   },
   {
     "DisplayName": "Disable Kit Restrictions",
+    "DefaultValue": "True",
     "Category": "OHD Server Settings:dns",
     "Subcategory": "General:manufacturing:1",
     "Description": "If set, player kit restrictions will be disabled",
@@ -680,7 +693,6 @@
     "FieldName": "Game.DisableKitRestrictions",
     "InputType": "checkbox",
     "ParamFieldName": "Game.DisableKitRestrictions",
-    "DefaultValue": "",
     "EnumValues": {
         "False": "False",
         "True": "True"
@@ -703,14 +715,14 @@
   },
   {
     "Category": "OHD Server Settings:dns",
-    "DefaultValue": "10",
+    "DefaultValue": "3",
     "Description": "Minimum respawn delay",
     "DisplayName": "Min Respawn Delay",
     "FieldName": "Game.MinRespawnDelay",
     "InputType": "number",
     "Keywords": "respawn,delay,MinRespawnDelay",
     "ParamFieldName": "Game.MinRespawnDelay",
-    "Placeholder": "10",
+    "Placeholder": "3",
     "Subcategory": "General:manufacturing:1"
   },
   {
