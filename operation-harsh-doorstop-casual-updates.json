@@ -36,5 +36,27 @@
       "UpdateSourceData": "powershell.exe",
       "UpdateSourceArgs": "-NoProfile -ExecutionPolicy Bypass -File \"managemods.ps1\"",
       "SkipOnFailure": true
+  },
+  {
+    "UpdateStageName": "First Backup Exclusions Download",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://raw.githubusercontent.com/wdarton/AMPTemplates/main/exclusions/.backupExclusionsOHD1",
+    "UpdateSourceArgs": ".backupExclude",
+    "UpdateSourceTarget": "{{$FullBaseDir}}",
+    "UpdateSourceConditionSetting": "backupExclude",
+    "UpdateSourceConditionValue": "true",
+    "OverwriteExistingFiles": false
+  },
+  {
+    "UpdateStageName": "Second Backup Exclusions Download",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://raw.githubusercontent.com/wdarton/AMPTemplates/main/exclusions/.backupExclusionsOHD2",
+    "UpdateSourceArgs": ".backupExclude",
+    "UpdateSourceTarget": "{{$FullBaseDir}}HarshDoorstop",
+    "UpdateSourceConditionSetting": "backupExclude",
+    "UpdateSourceConditionValue": "true",
+    "OverwriteExistingFiles": false
   }
 ]

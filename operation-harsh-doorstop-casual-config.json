@@ -661,7 +661,7 @@
   },
   {
     "Category": "OHD Server Settings:dns",
-    "DefaultValue": "2",
+    "DefaultValue": "-1",
     "Description": "Enforce Smaller Min Players To Capture",
     "DisplayName": "Enforce Smaller Min Players To Capture",
     "FieldName": "Game.EnforceSmallerMinPlayersToCapture",
@@ -673,7 +673,7 @@
   },
   {
     "Category": "OHD Server Settings:dns",
-    "DefaultValue": "-1",
+    "DefaultValue": "2",
     "Description": "Minimum amount of players required to capture a point (-1 = Use Map Settings)",
     "DisplayName": "Minimum Players To Capture",
     "FieldName": "Game.MinPlayersToCapture",
