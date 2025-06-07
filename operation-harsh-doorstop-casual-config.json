@@ -332,6 +332,18 @@
     "Subcategory": "Casualfield:flag:10"
   },
   {
+    "Category": "Mod Settings:extension",
+    "DefaultValue": "True",
+    "Description": "Allow Construction Friendly Fire",
+    "DisplayName": "Construction Friendly Fire",
+    "FieldName": "Mod.CasualField.bAllowConstructionFriendlyFire",
+    "InputType": "checkbox",
+    "Keywords": "auto,spawn,radius,bAllowConstructionFriendlyFire",
+    "ParamFieldName": "Mod.CasualField.bAllowConstructionFriendlyFire",
+    "Placeholder": "True",
+    "Subcategory": "Casualfield:flag:10"
+  },
+  {
     "Category": "OHD Server Settings:dns",
     "DefaultValue": "AMP Powered Operation: Harsh Doorstop Server",
     "Description": "Sets the name of the server as it appears publicly in the server browser",
@@ -746,6 +758,7 @@
     "DisplayName": "Faction",
     "EnumValues": {
       "": "--Map Default--",
+      "CranForce1": "Modern Era: CranForce1",
       "BP_HDFactionInfo_Insurgents": "Modern Era: Insurgents",
       "BP_HDFactionInfo_Insurgents_NoLogi": "Modern Era: Insurgents - No Logi",
       "BP_HDFactionInfo_PMC": "Modern Era: PMC",
@@ -848,6 +861,7 @@
     "DisplayName": "Faction",
     "EnumValues": {
       "": "--Map Default--",
+      "CranForce1": "Modern Era: CranForce1",
       "BP_HDFactionInfo_Insurgents": "Modern Era: Insurgents",
       "BP_HDFactionInfo_Insurgents_NoLogi": "Modern Era: Insurgents - No Logi",
       "BP_HDFactionInfo_PMC": "Modern Era: PMC",

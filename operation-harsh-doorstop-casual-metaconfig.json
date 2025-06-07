@@ -64,7 +64,9 @@
           "PlayerSprintAcceleration": "Mod.CasualField.PlayerSprintAcceleration",
           "PlayerSprintStrafingThreashold": "Mod.CasualField.PlayerSprintStrafingThreashold",
           "PlayerMaxWalkSpeed": "Mod.CasualField.PlayerMaxWalkSpeed",
-          "PlayerFallDamageDivisor": "Mod.CasualField.PlayerFallDamageDivisor"
+          "PlayerFallDamageDivisor": "Mod.CasualField.PlayerFallDamageDivisor",
+          "bAllowConstructionFriendlyFire": "Mod.CasualField.bAllowConstructionFriendlyFire"
+
         }
       },
       {
