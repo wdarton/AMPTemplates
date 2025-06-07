@@ -43,12 +43,13 @@
       {
         "Heading": "/CasualCQB/Root/Core/BP_HDGameState_CQB.BP_HDGameState_CQB_C",
         "SettingMappings": {
+          "bEnableSuppressionEffect": "Mod.CasualField.bEnableSuppressionEffect",
+          "bEnableSuppressionMovement": "Mod.CasualField.bEnableSuppressionMovement",
+          "bAllowConstructionFriendlyFire": "Mod.CasualField.bAllowConstructionFriendlyFire",
           "bEnableEnemyTags": "Mod.CasualField.bEnableEnemyTags",
           "bEnableDeathCamera": "Mod.CasualField.bEnableDeathCamera",
           "bEnableRedDot": "Mod.CasualField.bEnableRedDot",
           "bAllowMinimap": "Mod.CasualField.bAllowMinimap",
-          "bEnableSuppressionEffect": "Mod.CasualField.bEnableSuppressionEffect",
-          "bEnableSuppressionMovement": "Mod.CasualField.bEnableSuppressionMovement",
           "bAllowSquadSpawn": "Mod.CasualField.bAllowSquadSpawn",
           "bAllowRevive": "Mod.CasualField.bAllowRevive",
           "bNoReviveOnHeadshot": "Mod.CasualField.bNoReviveOnHeadshot",
@@ -64,9 +65,7 @@
           "PlayerSprintAcceleration": "Mod.CasualField.PlayerSprintAcceleration",
           "PlayerSprintStrafingThreashold": "Mod.CasualField.PlayerSprintStrafingThreashold",
           "PlayerMaxWalkSpeed": "Mod.CasualField.PlayerMaxWalkSpeed",
-          "PlayerFallDamageDivisor": "Mod.CasualField.PlayerFallDamageDivisor",
-          "bAllowConstructionFriendlyFire": "Mod.CasualField.bAllowConstructionFriendlyFire"
-
+          "PlayerFallDamageDivisor": "Mod.CasualField.PlayerFallDamageDivisor"
         }
       },
       {
