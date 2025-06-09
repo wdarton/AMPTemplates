@@ -43,14 +43,14 @@
       {
         "Heading": "/CasualCQB/Root/Core/BP_HDGameState_CQB.BP_HDGameState_CQB_C",
         "SettingMappings": {
+          "bAllowConstructionFriendlyFire": "Mod.CasualField.bAllowConstructionFriendlyFire",
+          "bAllowSquadSpawn": "Mod.CasualField.bAllowSquadSpawn",
           "bEnableSuppressionEffect": "Mod.CasualField.bEnableSuppressionEffect",
           "bEnableSuppressionMovement": "Mod.CasualField.bEnableSuppressionMovement",
-          "bAllowConstructionFriendlyFire": "Mod.CasualField.bAllowConstructionFriendlyFire",
           "bEnableEnemyTags": "Mod.CasualField.bEnableEnemyTags",
           "bEnableDeathCamera": "Mod.CasualField.bEnableDeathCamera",
           "bEnableRedDot": "Mod.CasualField.bEnableRedDot",
           "bAllowMinimap": "Mod.CasualField.bAllowMinimap",
-          "bAllowSquadSpawn": "Mod.CasualField.bAllowSquadSpawn",
           "bAllowRevive": "Mod.CasualField.bAllowRevive",
           "bNoReviveOnHeadshot": "Mod.CasualField.bNoReviveOnHeadshot",
           "bAllowAutoSquadJoin": "Mod.CasualField.bAllowAutoSquadJoin",
