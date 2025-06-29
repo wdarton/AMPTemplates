@@ -31,7 +31,8 @@
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "DownloadType",
-        "UpdateSourceConditionValue": "GithubRelease"
+        "UpdateSourceConditionValue": "GithubRelease",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "App Download",
@@ -43,13 +44,15 @@
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "DownloadType",
-        "UpdateSourceConditionValue": "DownloadURL"
+        "UpdateSourceConditionValue": "DownloadURL",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Create Dotnet Directory",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CreateDirectory",
-        "UpdateSourceArgs": "{{$FullRootDir}}dotnet"
+        "UpdateSourceArgs": "{{$FullRootDir}}dotnet",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": ".NET SDK Download",
@@ -78,7 +81,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "powershell.exe",
-        "UpdateSourceArgs": "-NoProfile -Command \"$ProgressPreference='SilentlyContinue'; $DotnetVersion='{{DotnetVersion}}'; if ([string]::IsNullOrWhiteSpace($DotnetVersion)) { $DotnetVersion=(Invoke-RestMethod -UseBasicParsing -Uri https://builds.dotnet.microsoft.com/dotnet/release-metadata/{{DotnetRelease}}/releases.json).\\\"latest-sdk\\\" }; if ($DotnetVersion -notmatch '^\\d+\\.\\d+\\.\\d+$') { Write-Output \\\"Invalid .NET SDK version format specified\\\"; exit 1 }; Invoke-WebRequest -UseBasicParsing -Uri https://builds.dotnet.microsoft.com/dotnet/Sdk/$DotnetVersion/dotnet-sdk-$DotnetVersion-win-x64.zip -OutFile 'dotnet.zip'; if ($?) { Write-Output \\\".NET SDK v$DotnetVersion downloaded\\\" }\"",
+        "UpdateSourceArgs": "-NoProfile -Command \"$ProgressPreference='SilentlyContinue'; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $DotnetVersion='{{DotnetVersion}}'; if ([string]::IsNullOrWhiteSpace($DotnetVersion)) { $DotnetVersion=(Invoke-RestMethod -UseBasicParsing -Uri https://builds.dotnet.microsoft.com/dotnet/release-metadata/{{DotnetRelease}}/releases.json).\\\"latest-sdk\\\" }; if ($DotnetVersion -notmatch '^\\d+\\.\\d+\\.\\d+$') { Write-Output \\\"Invalid .NET SDK version format specified\\\"; exit 1 }; Invoke-WebRequest -UseBasicParsing -Uri https://builds.dotnet.microsoft.com/dotnet/Sdk/$DotnetVersion/dotnet-sdk-$DotnetVersion-win-x64.zip -OutFile 'dotnet.zip'; if ($?) { Write-Output \\\".NET SDK v$DotnetVersion downloaded\\\" }\"",
         "UpdateSourceConditionSetting": "DisableDotnetDownload",
         "UpdateSourceConditionValue": "false",
         "SkipOnFailure": false

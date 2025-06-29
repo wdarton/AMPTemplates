@@ -4,6 +4,17 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "276060",
-        "UpdateSourceArgs": "225840"
+        "UpdateSourceArgs": "225840",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Server.cfg Template File Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/sven-co-opserver.cfg",
+        "UpdateSourceArgs": "AMP_server.cfg",
+        "UpdateSourceTarget": "{{$FullRootDir}}",
+        "OverwriteExistingFiles": true,
+        "SkipOnFailure": false
     }
 ]

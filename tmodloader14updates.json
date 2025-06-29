@@ -6,7 +6,8 @@
         "UpdateSourceData": "https://github.com/CubeCoders/AMPTemplates/raw/main/tmodloader14serverconfig.txt",
         "UpdateSourceTarget": "serverfiles",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "SteamCMD tModLoader",
@@ -17,7 +18,8 @@
         "UpdateSourceTarget": "serverfiles",
         "UpdateSourceConditionSetting": "Source",
         "UpdateSourceConditionValue": "Steam",
-        "UpdateSourceVersion": "{{BetaBranch}}"
+        "UpdateSourceVersion": "{{BetaBranch}}",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "GitHub tModLoader",
@@ -30,13 +32,15 @@
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "Source",
         "UpdateSourceConditionValue": "GitHub",
-        "DeleteAfterExtract": false
+        "DeleteAfterExtract": false,
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Create Dotnet Directory",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CreateDirectory",
-        "UpdateSourceArgs": "{{$FullBaseDir}}dotnet"
+        "UpdateSourceArgs": "{{$FullBaseDir}}dotnet",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": ".NET Runtime Download",
@@ -51,7 +55,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "powershell.exe",
-        "UpdateSourceArgs": "-NoProfile -Command \"$ProgressPreference='SilentlyContinue'; $DotnetVersion='{{DotnetVersion}}'; if ([string]::IsNullOrWhiteSpace($DotnetVersion)) { $DotnetVersion=(Invoke-RestMethod -UseBasicParsing -Uri https://builds.dotnet.microsoft.com/dotnet/release-metadata/{{DotnetRelease}}/releases.json).\\\"latest-runtime\\\" }; if ($DotnetVersion -notmatch '^\\d+\\.\\d+\\.\\d+$') { Write-Output \\\"Invalid .NET Runtime version format specified\\\"; exit 1 }; Invoke-WebRequest -UseBasicParsing -Uri https://builds.dotnet.microsoft.com/dotnet/Runtime/$DotnetVersion/dotnet-runtime-$DotnetVersion-win-x64.zip -OutFile 'dotnet.zip'; if ($?) { Write-Output \\\".NET Runtime v$DotnetVersion downloaded\\\" }\"",
+        "UpdateSourceArgs": "-NoProfile -Command \"$ProgressPreference='SilentlyContinue'; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $DotnetVersion='{{DotnetVersion}}'; if ([string]::IsNullOrWhiteSpace($DotnetVersion)) { $DotnetVersion=(Invoke-RestMethod -UseBasicParsing -Uri https://builds.dotnet.microsoft.com/dotnet/release-metadata/{{DotnetRelease}}/releases.json).\\\"latest-runtime\\\" }; if ($DotnetVersion -notmatch '^\\d+\\.\\d+\\.\\d+$') { Write-Output \\\"Invalid .NET Runtime version format specified\\\"; exit 1 }; Invoke-WebRequest -UseBasicParsing -Uri https://builds.dotnet.microsoft.com/dotnet/Runtime/$DotnetVersion/dotnet-runtime-$DotnetVersion-win-x64.zip -OutFile 'dotnet.zip'; if ($?) { Write-Output \\\".NET Runtime v$DotnetVersion downloaded\\\" }\"",
         "SkipOnFailure": false
     },
     {
