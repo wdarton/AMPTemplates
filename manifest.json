@@ -4,6 +4,6 @@
 	"origin": "https://github.com/wdarton/AMPTemplates.git",
 	"url": "https://github.com/wdarton/AMPTemplates",
 	"imagefile": "",
-	"prefix": "",
+	"prefix": "wtd",
 	"repotype": "AppTemplates"
 }
